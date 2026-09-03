@@ -1,0 +1,93 @@
+#container {
+    max-width: 500px;
+    margin: 180px auto;
+    padding: 40px 60px 20px 60px;
+    border: 2px solid;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(182, 24, 24);
+}
+
+#resultado {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 0 0;
+    font-size: 20pt;
+}
+
+.titulo {
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(182, 24, 24);
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.centerbtn {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background: rgb(82, 22, 22);
+    height: auto;
+    margin: 0 0;
+    max-width: 100%;
+    font-family: comic sans ms, sans-serif;
+}
+
+header {
+    text-align: center;
+    font-size: 13pt;
+}
+
+label {
+    font-size: 20pt;
+}
+
+select {
+    padding: 7px;
+    font-size: 15pt;
+    font-family: comic sans ms, sans-serif;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+select:focus {
+    border-color: red;
+}
+
+button {
+    width: 200px;
+    padding: 10px;
+    font-size: 15pt;
+    font-family: comic sans ms, sans-serif;
+    border: none;
+    border-radius: 15px;
+}
+
+button:hover {
+    width: 200px;
+    padding: 10px;
+    font-size: 15pt;
+    font-family: comic sans ms, sans-serif;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+footer {
+    margin-bottom: 0;
+    line-height: 140px;
+    text-align: center;
+    font-size: 13pt;
+}
